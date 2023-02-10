@@ -47,7 +47,7 @@ const MultiLevel = ({ item }) => {
   }
   return (
     <div>
-      <h1 style={{textAlign:'center'}}>Modal Example</h1>
+      <h1 style={{textAlign:'center', color:'red'}}>Modal Example</h1>
       <ListItem button >
         <ListItemText primary={item.title} />
         <Button
